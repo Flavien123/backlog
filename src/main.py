@@ -10,9 +10,9 @@ file: Path = BASE_DIR / "backlog.txt"
 now: datetime = datetime.now()
 time: str = now.strftime("%Y-%m-%d %H:%M:%S")
 
-parser = ArgumentParser(description="CLI для ежедневных записей")
-parser.add_argument("text", type=str, help="Текст который сохранится в файле")
-parser.add_argument("-f", "--file", type=str, help="Путь до файла")
+parser = ArgumentParser()
+parser.add_argument("text", type=str)
+parser.add_argument("-f", "--file", type=str)
 args = parser.parse_args()
 
 
