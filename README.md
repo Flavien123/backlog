@@ -9,11 +9,6 @@ A simple command-line tool to log daily notes with timestamps.
 - Optionally save to a custom file
 - Automatic timestamp formatting `YYYY-MM-DD HH:MM:SS`
 
-## Installation
-
-```bash
-python main.py "Your note text here"
-```
 
 ## Usage
 
