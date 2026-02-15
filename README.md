@@ -7,7 +7,7 @@ A simple command-line tool to log daily notes with timestamps.
 
 - Save notes to a default backlog file
 - Optionally save to a custom file
-- Automatic timestamp formatting (YYYY-MM-DD HH:MM:SS)
+- Automatic timestamp formatting `YYYY-MM-DD HH:MM:SS`
 
 ## Installation
 
